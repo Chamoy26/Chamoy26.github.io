@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+}
+body{
+  background: gray;
+}
+.container{
+  width: 500px;
+  padding: 20px;
+  background: white;
+  margin:auto;
+  margin-top: 50px;
+}
+.titulo{
+  text-align: center;
+  border: solid blue 1px;
+  border-style: dashed;
+  padding: 15px;
+  color: #7d7d97;
+}
+.padre{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: #272b2a;
+}
+.nombre,.email,.usuario,.clave{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input{
+  padding: 10px;
+}
+input:focus{
+  outline: solid #341c5a 2px;
+}
+.cuenta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.boton{
+  background: #867509;
+  border: none;
+  color: white;
+}
+.salir{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px
+}
